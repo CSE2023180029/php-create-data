@@ -3,7 +3,9 @@
 function hello($name,$email){
    return[
 'name' => $name,
-'emain' => $email
+'email' => $email
    ];
 }
-return hello('MOMMO','momo@gmal.com');
+$data =  hello('MOMMO','momo@gmal.com');
+
+echo 'name : '.$data['name'].', Email : '.$data['email'];
