@@ -1,6 +1,7 @@
 <?php
 
 function hello($name,$email){
+   // hello
    return[
 'name' => $name,
 'email' => $email
